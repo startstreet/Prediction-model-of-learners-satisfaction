@@ -1,4 +1,3 @@
-[TOC]
 
 # 机器学习、深度学习教程汇总
 
@@ -34,9 +33,8 @@
 
 感觉没有基础会比较难懂，而且有些公式没有详细的推导，于是有了**【南瓜书】**的存在。
 
-[^南瓜书]: 周志华老师的《机器学习》（西瓜书）是机器学习领域的经典入门教材之一，周老师为了使尽可能多的读者通过西瓜书对机器学习有所了解，所以在书中对部分公式的推导细节没有详述，但是这对那些想深究公式推导细节的读者来说可能“不太友好”。github仓库“南瓜书(PumpkinBook)”对西瓜书里比较难理解的公式加以解析，以及对部分公式补充具体的推导细节。
+【注】周志华老师的《机器学习》（西瓜书）是机器学习领域的经典入门教材之一，周老师为了使尽可能多的读者通过西瓜书对机器学习有所了解，所以在书中对部分公式的推导细节没有详述，但是这对那些想深究公式推导细节的读者来说可能“不太友好”。github仓库“南瓜书(PumpkinBook)”对西瓜书里比较难理解的公式加以解析，以及对部分公式补充具体的推导细节。
 
-<img src="C:\Users\AstirMoonscape\AppData\Roaming\Typora\typora-user-images\image-20200714153306452.png" alt="image-20200714153306452" style="zoom: 25%;" />
 
 【西瓜书PDF】https://wws.lanzous.com/izN7celj5aj 
 
@@ -78,7 +76,6 @@ https://pytorch.apachecn.org/docs/1.4/
 
 ### 5  Deep Learning with PyTorch【书籍】
 
-<img src="C:\Users\AstirMoonscape\AppData\Roaming\Typora\typora-user-images\image-20200714161543745.png" alt="image-20200714161543745" style="zoom:25%;" />
 
 貌似是pytorch的官方权威教程，英文版
 
