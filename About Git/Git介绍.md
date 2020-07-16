@@ -239,3 +239,13 @@ git pull
 （修改IP地址）https://blog.csdn.net/yh0503/article/details/90233216 效果一般
 
 还有就是科学上网~
+
+
+
+## 【附录】
+
+（莫烦Git）https://www.bilibili.com/video/BV1Jx411L7VE?from=search&seid=5968590755707834441
+
+（十分钟入门Git）https://www.bilibili.com/video/BV1c4411X7oR?from=search&seid=14096804177811180851
+
+（Git常用5个指令）https://www.bilibili.com/video/BV117411b7q5?from=search&seid=6863034019248954981
