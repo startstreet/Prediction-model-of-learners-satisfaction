@@ -1,7 +1,5 @@
 # Git介绍
 
-[TOC]
-
 Git是一种**代码管理工具**，支持**代码存放**、**版本控制**和**团队协作**的功能。
 
 举个比较简单的例子：同学A和同学B合作完成一个项目，同学A先写好了一个`demo.py`文件:
@@ -37,7 +35,7 @@ print("Hello C!")	# 替换了原来的语句
 
 以Win10 64位为例（**红框2选1**），安装过程略（一路下一步即可）
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716121036525.png" alt="image-20200716121036525" style="zoom:25%;" />
+![Image Text](https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716121036525.png)
 
 安装完毕后，在每个文件夹右键应该有**git bash**出现（**git bash是一个Unix环境**，可以在里面使用例如`cd`、`ls`、`mkdir`等Unix指令）：
 
