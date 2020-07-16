@@ -35,11 +35,11 @@ print("Hello C!")	# 替换了原来的语句
 
 以Win10 64位为例（**红框2选1**），安装过程略（一路下一步即可）
 
-![Image Text](https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716121036525.png)
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716121036525.png" alt="image-20200716121036525" style="zoom:25%;" />
 
 安装完毕后，在每个文件夹右键应该有**git bash**出现（**git bash是一个Unix环境**，可以在里面使用例如`cd`、`ls`、`mkdir`等Unix指令）：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716121638508.png" alt="image-20200716121638508" style="zoom:25%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716121638508.png" alt="image-20200716121638508" style="zoom:25%;" />
 
 接下来进行**初步的配置**，因为Git是分布式版本控制系统，所以需要填写用户名和邮箱作为一个标识。
 
@@ -51,7 +51,7 @@ print("Hello C!")	# 替换了原来的语句
 git config --global user.name "你的用户名"
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716130447452.png" alt="image-20200716130731583" style="zoom: 50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716130447452.png" alt="image-20200716130731583" style="zoom: 50%;" />
 
 * 配置用户邮箱（GitHub上注册的邮箱）
 
@@ -59,7 +59,7 @@ git config --global user.name "你的用户名"
 git config --global user.email "你的邮箱"
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716130854444.png" alt="image-20200716130854444" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716130854444.png" alt="image-20200716130854444" style="zoom:50%;" />
 
 * 查看是否配置成功
 
@@ -68,7 +68,7 @@ git config user.name
 git config user.email
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716131003190.png" alt="image-20200716131003190" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716131003190.png" alt="image-20200716131003190" style="zoom:50%;" />
 
 ###  1.2 Git命令简介及使用
 
@@ -82,7 +82,7 @@ git clone "仓库地址"
 
 首先在GitHub仓库页面找到仓库地址，点击复制：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716131230103.png" alt="image-20200716131230103" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716131230103.png" alt="image-20200716131230103" style="zoom:50%;" />
 
 然后在git bash输入：
 
@@ -92,11 +92,11 @@ git clone "https://github.com/startstreet/Prediction-model-of-learners-satisfact
 
 效果如下：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716131444930.png" alt="image-20200716131444930" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716131444930.png" alt="image-20200716131444930" style="zoom:50%;" />
 
 这时在本地就有仓库对应的文件（文件路径取决于你在哪打开git bash，也就是当前bash下的定位）：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716132148630.png" alt="image-20200716132148630" style="zoom: 33%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716132148630.png" alt="image-20200716132148630" style="zoom: 33%;" />
 
 
 
@@ -108,7 +108,7 @@ git add "要提交的文件"
 
 在本地编辑好代码，准备提交到暂存区，可以使用add指令
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716132809562.png" alt="image-20200716132809562" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716132809562.png" alt="image-20200716132809562" style="zoom:50%;" />
 
 **常用**——提交当前被修改和新增的文件：
 
@@ -118,11 +118,11 @@ git add .
 
 首先进入到工作目录下：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716133112030.png" alt="image-20200716133112030" style="zoom: 50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716133112030.png" alt="image-20200716133112030" style="zoom: 50%;" />
 
 输入指令（**注意add和.之前有空格**）：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716133202297.png" alt="image-20200716133202297" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716133202297.png" alt="image-20200716133202297" style="zoom:50%;" />
 
 
 
@@ -132,7 +132,7 @@ git add .
 git commit -m "本次提交描述的语句，更新了xxx"
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716133357389.png" alt="image-20200716133357389" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716133357389.png" alt="image-20200716133357389" style="zoom:50%;" />
 
 在前面**git add的基础**上，将代码提交至本地仓库：
 
@@ -140,7 +140,7 @@ git commit -m "本次提交描述的语句，更新了xxx"
 git commit -m "update README"
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716133707254.png" alt="image-20200716133707254" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716133707254.png" alt="image-20200716133707254" style="zoom:50%;" />
 
 【注】这里由于没有修改，只是把原来的再提交一遍，所以显示**"up to date"——已经是最新**
 
@@ -152,11 +152,11 @@ git commit -m "update README"
 git push
 ```
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716133924348.png" alt="image-20200716133924348" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716133924348.png" alt="image-20200716133924348" style="zoom:50%;" />
 
 在前面**git commit -m**的基础上，使用push指令将本地仓库的代码推送至**远程仓库**，也就是github上的仓库，效果如下：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716134122594.png" alt="image-20200716134122594" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716134122594.png" alt="image-20200716134122594" style="zoom:50%;" />
 
 
 
@@ -170,7 +170,7 @@ git pull
 
 效果如下：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716134439929.png" alt="image-20200716134439929" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716134439929.png" alt="image-20200716134439929" style="zoom:50%;" />
 
 
 
@@ -192,41 +192,41 @@ git pull
 
 首先在File-Options登陆github账号：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716134936203.png" alt="image-20200716134936203" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716134936203.png" alt="image-20200716134936203" style="zoom:50%;" />
 
 然后选择clone：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716135042563.png" alt="image-20200716135042563" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716135042563.png" alt="image-20200716135042563" style="zoom:50%;" />
 
 可以直接clone你已经加入的仓库，记得下面的**choose**选择要存放的路径：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716135216720.png" alt="image-20200716135216720" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716135216720.png" alt="image-20200716135216720" style="zoom:50%;" />
 
 当然也可以复制远程仓库的https地址进行创建：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716135342071.png" alt="image-20200716135342071" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716135342071.png" alt="image-20200716135342071" style="zoom:50%;" />
 
 * push提交
 
 当本地代码修改时，客户端会自动识别修改的内容：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716153926709.png" alt="image-20200716153926709" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716153926709.png" alt="image-20200716153926709" style="zoom:50%;" />
 
 点击左下角的**commit to master**（文字可以添加更新的描述）直接提交到本地仓库：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716154256729.png" alt="image-20200716154256729" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716154256729.png" alt="image-20200716154256729" style="zoom:50%;" />
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716154458991.png" alt="image-20200716154458991" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716154458991.png" alt="image-20200716154458991" style="zoom:50%;" />
 
 选择**Repository-Push**推送到远程仓库：
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716154404826.png" alt="image-20200716154404826" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716154404826.png" alt="image-20200716154404826" style="zoom:50%;" />
 
 
 
 * pull拉取
 
-<img src="D:\GitHub\202016\Prediction-model-of-learners-satisfaction\About Git\pics\image-20200716155553839.png" alt="image-20200716155553839" style="zoom:50%;" />
+<img src="https://github.com/startstreet/Prediction-model-of-learners-satisfaction/blob/master/About%20Git/pics/image-20200716155553839.png" alt="image-20200716155553839" style="zoom:50%;" />
 
 ## 3 关于GitHub访问慢的问题
 
